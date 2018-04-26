@@ -1,11 +1,14 @@
 /*CSS code by underdisk for the Delta Confederation*/
 /*This code is meant to be used with the css framework pure [purecss.io]*/
 
+html {
+    font-family: "aileronlight";
+}
+
 body {
 	background-color:black;
 	color:white;
 	padding-top:30px;
-	font-family: "aileronlight";
 }
 
 .img-container-res {
@@ -14,6 +17,7 @@ body {
 	display: block;
 	margin-left:auto;
 	margin-right: auto;
+    margin-bottom: 52px;
 	text-align: center;
 	font-size: 30px;
 	
@@ -22,6 +26,28 @@ body {
     -ms-animation: fadein 4s; /* Internet Explorer */
     -o-animation: fadein 4s; /* Opera < 12.1 */
     animation: fadein 4s;
+}
+
+.linkbar {
+	text-align: center;
+    margin-left:5%;
+    margin-right:5%;
+    
+    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 6s; /* Firefox < 16 */
+    -ms-animation: fadein 6s; /* Internet Explorer */
+    -o-animation: fadein 6s; /* Opera < 12.1 */
+    animation: fadein 6s;
+}
+
+.linkbar-element {
+    cursor:pointer;
+    font-family: aileronregular;
+    border-bottom: solid white 2px;
+}
+
+.linkbar-element:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 @keyframes fadein {
