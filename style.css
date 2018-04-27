@@ -8,6 +8,7 @@ html {
 a {
     text-decoration: none;
     color:white;
+    font-family: aileronbold;
 }
 
 body {
@@ -37,6 +38,7 @@ body {
 	text-align: center;
     margin-left:5%;
     margin-right:5%;
+    padding-bottom:15px;
     
     -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 6s; /* Firefox < 16 */
@@ -53,6 +55,49 @@ body {
 
 .linkbar-element:hover {
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.classic-center {
+    font-size: 25px;
+    text-align: center;
+     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+
+.text-container {
+    display: block;
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+.classic-title {
+    display: block;
+    font-size: 30px;
+    font-family: aileronbold;
+    
+    -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 8s; /* Firefox < 16 */
+    -ms-animation: fadein 8s; /* Internet Explorer */
+    -o-animation: fadein 8s; /* Opera < 12.1 */
+    animation: fadein 8s;
+}
+
+.classic-paragraph {
+    margin-left:5%;
+    margin-right: 5%;
+    display: block;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    
+    -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 10s; /* Firefox < 16 */
+    -ms-animation: fadein 10s; /* Internet Explorer */
+    -o-animation: fadein 10s; /* Opera < 12.1 */
+    animation: fadein 10s;
 }
 
 @keyframes fadein {
